@@ -3,15 +3,15 @@
 int main() {
     int i, length = 0;
     char str[50];
-    printf("\në¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+    printf("\n¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä : ");
     gets(str);
-    printf("\nì…ë ¥ëœ ë¬¸ìì—´ì€ \n \"");
+    printf("\nÀÔ·ÂµÈ ¹®ÀÚ¿­Àº \n \"");
     for(i=0;str[i];i++){
         printf("%c",str[i]);
         length += 1;
     }
-    printf("\"\nì…ë‹ˆë‹¤.");
-    printf("\n\nì…ë ¥ëœ ë¬¸ìì—´ì˜ ê¸¸ì´ = %d \n",length);
+    printf("\"\nÀÔ´Ï´Ù.");
+    printf("\n\nÀÔ·ÂµÈ ¹®ÀÚ¿­ÀÇ ±æÀÌ = %d \n",length);
     getchar();
     
     return 0;
