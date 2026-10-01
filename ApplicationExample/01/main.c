@@ -8,7 +8,8 @@ int main() {
     scanf("%d",&n);
     scanf("%50s",&swings);
     ex(swings, n, l ,r);
-   
+    
+	getchar();
    
     return 0;
 }

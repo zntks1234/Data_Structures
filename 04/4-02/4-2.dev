@@ -1,6 +1,6 @@
 [Project]
-FileName=4-1.dev
-Name=4-1
+FileName=4-2.dev
+Name=4-2
 Type=1
 Ver=2
 ObjFiles=
@@ -50,8 +50,18 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
+[Unit1]
+FileName=LinkedList.h
+CompileCpp=0
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
 [Unit2]
-FileName=InsertLinkedList.h
+FileName=LinkedList.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -61,17 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=InsertLinkedList.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit1]
-FileName=ex4_1.c
+FileName=ex4_2.c
 CompileCpp=0
 Folder=
 Compile=1
